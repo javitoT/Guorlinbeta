@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guorlin.admin.guorlinbeta">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/guorlinlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/guorlinlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".Categorias" />
+        <activity android:name=".Contacto" />
+        <activity android:name=".Animacion" />
+        <activity android:name=".Cortometraje" />
+        <activity android:name=".Deportes" />
+        <activity android:name=".Naturaleza" />
+        <activity android:name=".Terror" />
+        <activity android:name=".Turismo"></activity>
+    </application>
+
+</manifest>

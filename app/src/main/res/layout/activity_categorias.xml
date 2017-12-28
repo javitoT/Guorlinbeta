@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.guorlin.admin.guorlinbeta.Categorias">
+
+    <Button
+        android:text="Deportes"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button6"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:onClick="gotodep" />
+
+    <Button
+        android:text="Naturaleza"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button7"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:onClick="gotonat" />
+
+    <Button
+        android:text="Animación"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button8"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:onClick="gotoani"/>
+
+    <Button
+        android:text="Terror"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button9"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:onClick="gototer"/>
+
+    <Button
+        android:text="Cortometraje"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button10"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:onClick="gotocorto" />
+
+    <Button
+        android:text="Turismo"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="70px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button12"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:onClick="gototuri"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="GUORLIN"
+        android:textColor="#ffffff"
+        android:textSize="50px"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:id="@+id/button13"
+        android:onClick="gotoguorlin"/>
+
+
+
+</LinearLayout>
